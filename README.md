@@ -29,10 +29,9 @@ Triggers on airdock/node-centos6 do this following task:
 
 So, inside a Node.js project you have just set a Dockerfile like this one
 
-'''
+```
 FROM airdock/node-centos6
-
-'''
+```
 
 ### static content from an external volume
 
