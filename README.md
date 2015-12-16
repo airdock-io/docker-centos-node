@@ -48,6 +48,7 @@ FROM airdock/node-centos6
 
 ## latest (current)
 
+- use npm start as default command
 - add Node.js
 - add epel package
 - MIT license

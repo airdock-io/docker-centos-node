@@ -23,4 +23,4 @@ ONBUILD COPY . /srv/node
 ONBUILD RUN npm install
 
 # DEFAULT command
-CMD ["node", "/srv/node/bin/www"]
+CMD ["npm", "start"]
