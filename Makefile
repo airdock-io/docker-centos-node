@@ -3,7 +3,7 @@ VERSION = 1.0
 
 .PHONY: all clean build tag_latest release debug run
 
-all: build tag_latest
+all: build
 
 clean:
 	@CID=$(shell docker ps -a | awk '{ print $$1 " " $$2 }' | grep $(NAME) | awk '{ print $$1 }'); if [ ! -z "$$CID" ]; then echo "Removing container which reference $(NAME)"; for container in $(CID); do docker rm -f $$container; done; fi;
