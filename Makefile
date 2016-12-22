@@ -1,5 +1,5 @@
 NAME = airdock/node-centos6
-VERSION = 1.0
+VERSION = dev
 
 .PHONY: all clean build tag_latest release debug run
 

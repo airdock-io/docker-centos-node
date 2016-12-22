@@ -1,10 +1,9 @@
-# Docker Node.js centos6 [![](https://badge.imagelayers.io/airdock/node-centos6:latest.svg)](https://imagelayers.io/?images=airdock/node-centos6:latest 'Get your own badge on imagelayers.io')
+# Docker Node.js centos6 [![](https://images.microbadger.com/badges/image/airdock/node-centos6:latest.svg)](https://microbadger.com/images/airdock/node-centos6:latest "Get your own image badge on microbadger.com")
+
 
 Docker Image for Node.js on Centos 6
 
-Purpose of this image is:
-
-- provide [Node.js](https://nodejs.org)
+Purpose of this image is to provide [Node.js](https://nodejs.org) on centos.
 
 
 > Name: airdock/node-centos6
@@ -25,7 +24,7 @@ You should have already install [Docker](https://www.docker.com/).
 Node.js is installed under /srv/node folder.
 Triggers on airdock/node-centos6 do this following task:
   * add . into /srv/node
-  * run npm install 
+  * run npm install
 
 So, inside a Node.js project you have just set a Dockerfile like this one
 
